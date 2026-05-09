@@ -1,4 +1,4 @@
-# Image-Handling-and-Pixel-Transformations-Using-OpenCV 
+# OpenCV-Color-and-Pixel-Processing
 
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
@@ -209,12 +209,80 @@ plt.show()
 ```
 
 ## Output:
-- **i)** Read and Display an Image.
-- 1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
+- ### *i)* Read and Display an Image.  
+   1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
+
+<img width="566" height="472" alt="Screenshot 2026-05-03 104415" src="https://github.com/user-attachments/assets/667f606c-fd28-4035-bea1-0a32d2ce1f66" />
+
+
+  2.Save image as PNG and display:
+
+<img width="571" height="453" alt="Screenshot 2026-05-03 104945" src="https://github.com/user-attachments/assets/0219f41d-3f9c-44e2-9d3d-7fc1791fad22" />
+
+
+  3.Cropped image:
+
+<img width="398" height="466" alt="Screenshot 2026-05-03 105039" src="https://github.com/user-attachments/assets/8cbe4903-6b29-4fcf-af8c-21626c0975ed" />
+
+
+  4.Resize and flip Horizontally:
   
-- **ii)** Adjust Image Brightness.  
-- **iii)** Modify Image Contrast.  
-- **iv)** Generate Third Image Using Bitwise Operations.
+<img width="444" height="451" alt="Screenshot 2026-05-03 105116" src="https://github.com/user-attachments/assets/b64f9a1e-8869-420a-aa48-01ed12931029" />
+
+
+  5.Read 'Apollo-11-launch.jpg' and  Display the final annotated image:
+
+![image](https://github.com/user-attachments/assets/f9f8af66-0811-4ef7-93dd-26fd825533b7)
+
+- ### *ii)* Adjust Image Brightness.
+
+1.Create brighter and darker images and display:
+
+![image](https://github.com/user-attachments/assets/2fbdf2e6-53b6-4789-b1f7-1c04a2a58af0)
+
+![image](https://github.com/user-attachments/assets/84944e6d-1f8a-4db8-8f53-d3d2bbbd6e1c)
+
+![image](https://github.com/user-attachments/assets/217de5b6-93f7-4495-95a6-549a1a182976)
+
+
+
+- ### *iii)* Modify Image Contrast.  
+1. Modify contrast using scaling factors 1.1 and 1.2:
+
+![image](https://github.com/user-attachments/assets/4139717b-33aa-43b6-9bc2-5783780a1eb5)
+
+![image](https://github.com/user-attachments/assets/c96ec7ac-58aa-4729-9431-fdf31838a5f7)
+
+![image](https://github.com/user-attachments/assets/e19b467e-0ab4-44af-a235-921af100fe3d)
+
+
+- ### *iv)* Generate Third Image Using Bitwise Operations.
+
+1.Split 'Boy.jpg' into B, G, R components and display:
+
+![image](https://github.com/user-attachments/assets/30364c56-0f70-4d05-b1fe-e504bbc830f4)
+
+![image](https://github.com/user-attachments/assets/fc200792-bf96-4e55-bb12-d9c07df40092)
+
+![image](https://github.com/user-attachments/assets/86c9a27b-a0ac-4cdd-924b-bd3173a3cee9)
+
+2.Merge the R, G, B channels and display:
+
+![image](https://github.com/user-attachments/assets/09d5507f-ae48-4ab3-bc7d-9b7466ce7e81)
+
+3.Split the image into H, S, V components and display:
+
+![image](https://github.com/user-attachments/assets/5cfbee49-3082-44da-ab63-fbe813392013)
+
+![image](https://github.com/user-attachments/assets/74412dc1-b2a1-4261-af9c-0bec8f2165d6)
+
+![image](https://github.com/user-attachments/assets/c0612cd0-1dcc-4c4f-b9f7-501b18468184)
+
+
+4.Merge the H, S, V channels and display:
+
+![image](https://github.com/user-attachments/assets/3c8fa07d-31ff-4b14-87c1-061ffef0447e)
+
 
 ## Result:
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
